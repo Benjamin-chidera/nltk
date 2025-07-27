@@ -1,0 +1,10 @@
+from nltk.corpus import stopwords
+
+stop_words = set(stopwords.words('english'))
+
+print(stop_words)
+
+Stop words: {"shouldn't", 'shan', 'hers', 'over', 'will', "he'll", 'these', 'before', 're', 'no', "she'd", "won't", 'off', 'than', 'few', 'y', 'through', 'below', 'once', 'so', 'his', 'into', 'during', 'haven', "she's", 'that', "it's", 'their', 'other', "he'd", 'in', "we've", 'about', 'for', 'when', "hasn't", 'aren', 'doing', "shan't", 'o', "it'll", 'only', 'such', "we're", "should've", 'weren', 'mustn', 'not', 'at', 'your', 'shouldn', 'by', 'again', 'nor', "they've", 'they', 'here', "hadn't", 'further', "it'd", 'under', "wouldn't", 'them', 'themselves', 'm', 'there', "needn't", 'those', "we'd", "you'd", 'did', 'from', 'is', "i'm", 'ourselves', 'won', 'down', 'most', 'didn', 'am', 'against', "i'll", 'on', 've', 'yourselves', 'have', "haven't", 'myself', 'up', 'which', 'himself', 'and', "weren't", 'were', 'where', 'our', 'if', "don't", 'above', 'had', 'each', 'd', 'been', 'more', 'should', 'of', 'you', 'then', 'my', 'the', "we'll", 'isn', 'don', 'because', 'just', 'ma', "you'll", 'how', 'its', "i'd", 'this', 'to', 'yours', "they'd", 'll', 'between', "they'll", 'a', 'hadn', 'having', 'couldn', 'she', 'theirs', "he's", 'does', "wasn't", 'are', 'yourself', 'he', 'while', 'we', 'both', 'whom', 'needn', 'all', 's', 'some', 'who', "you've", 'an', 'can', "didn't", 'but', 'why', 'ain', "mightn't", 'has', "isn't", 'her', 'own', 'i', 'with', 'very', 'herself', 'wouldn', 'wasn', 'ours', "that'll", 'itself', "i've", "aren't", 'doesn', 'after', 'what', 'or', 'was', 'hasn', 'me', 'be', 'being', "mustn't", 'now', 'him', 't', "you're", 'same', 'until', 'out', "they're", 'mightn', "doesn't", "couldn't", 'it', 'too', 'do', 'as', "she'll", 'any'}
+
+
+stop_words removes words that really don't add any meaning to the sentence. like in the above example.

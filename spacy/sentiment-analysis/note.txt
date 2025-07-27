@@ -1,0 +1,11 @@
+pip install -U textblob
+
+python -m textblob.download_corpora
+
+
+using textblob for sentiment analysis -> using TextBlob
+
+
+
+
+pip install vaderSentiment -> using vaderSentiment for sentiment analysis

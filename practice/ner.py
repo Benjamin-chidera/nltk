@@ -1,0 +1,19 @@
+import nltk
+from nltk import ne_chunk, pos_tag
+from nltk.tokenize import word_tokenize
+
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('maxent_ne_chunker')
+nltk.download('words')
+
+# Sample sentence
+text = "Elon Musk founded SpaceX in California in 2002."
+
+
+token = word_tokenize(text)
+pos_tags = pos_tag(token)
+
+ne = ne_chunk(pos_tags)
+
+print(ne)

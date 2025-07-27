@@ -1,0 +1,8 @@
+Tokenization means splitting text into words or sentences.
+
+import nltk
+from nltk.tokenize import sent_tokenize,  word_tokenize
+nltk.download("punkt")
+
+sent_tokenize -> this split text into sentences
+word_tokenize -> this split sentences into words

@@ -1,0 +1,13 @@
+from nltk.stem import PorterStemmer
+
+# create an instance of the PorterStemmer
+stemmer = PorterStemmer()
+
+# stemming example
+examples = ["running", "eating", "doing", "going", "walking", "flying"]
+
+stemmed_examples = [stemmer.stem(word) for word in examples]
+
+print(stemmed_examples)
+
+Note: stemming is used to reduce words to their root form, which is more meaningful and easier to search for in a corpus.

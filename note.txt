@@ -1,0 +1,4 @@
+python3 -m venv venv
+source venv/bin/activate
+
+Note: this is to create a virtual environment and activate it.
